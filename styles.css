@@ -1,5 +1,67 @@
+body {
+    background-color: hsl(30, 38%, 92%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
 .wrapper {
     border: 1px solid black;
     display: flex;
     column-gap: 30px;
+    background-color: white;   
 }
+
+
+.product-details-styles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+ .product-details-styles {
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.perfume-style {
+    color: grey;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.pricing-style {
+    display: flex;
+    column-gap: 30px;
+}
+
+.discount-style {
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    width: 200px ;
+    padding: 10px;
+    margin: 0;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10%;
+    color: white;
+}
+
+.original-style {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.paragraph-style {
+    color: grey;
+}
+
