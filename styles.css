@@ -1,29 +1,34 @@
 body {
     background-color: hsl(30, 38%, 92%); 
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    
-
+    font-family: "Montserrat", sans-serif;
 }
+
 .wrapper {
-    border: 1px solid black;
+    border-radius: 10px;
     display: flex;
     column-gap: 30px;
     background-color: white;   
+    width: 700px;
 }
 
+img {
+    width: 330px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 .product-details-styles {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-}
-
- .product-details-styles {
     margin-top: 30px;
     margin-bottom: 30px;
-} 
+    margin-right: 30px;
+}
 
 .perfume-style {
     color: grey;
@@ -40,6 +45,7 @@ p {
 .pricing-style {
     display: flex;
     column-gap: 30px;
+    align-items: center;
 }
 
 .discount-style {
@@ -47,12 +53,12 @@ p {
 }
 
 button {
-    width: 200px ;
-    padding: 10px;
+    width: 300px ;
+    padding: 20px;
     margin: 0;
     background-color: hsl(158, 36%, 37%);
     border: none;
-    border-radius: 10%;
+    border-radius: 10px;
     color: white;
 }
 
